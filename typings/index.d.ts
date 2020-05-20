@@ -10,9 +10,7 @@ interface Window {
 }
 
 // Declare modules for non-typed packages
-declare module 'antd/dist/dark-theme';
 declare module 'react-media-hook';
-declare module 'antd/dist/theme';
 declare module 'less-vars-to-js';
 
 // Declare generic interfaces
