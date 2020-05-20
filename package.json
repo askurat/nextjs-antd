@@ -4,11 +4,8 @@
   "author": "",
   "license": "ISC",
   "scripts": {
-    "codegen": "graphql-let",
-    "genTheme": "node ./generateColorLess.js",
-    "dev": "yarn codegen && cross-env NODE_OPTIONS=\"-r esm\" next",
-    "build": "yarn codegen && cross-env NODE_OPTIONS=\"-r esm\" next build",
-    "analyze": "cross-env-shell NODE_OPTIONS=\"-r esm\" ANALYZE=true next build",
+    "dev": "cross-env NODE_OPTIONS=\"-r esm\" next",
+    "build": "cross-env NODE_OPTIONS=\"-r esm\" next build",
     "start": "next start"
   },
   "dependencies": {

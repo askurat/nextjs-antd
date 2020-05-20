@@ -28,10 +28,10 @@ module.exports = (nextConfig = {}) => {
         dev,
         isServer,
         loaders: [
-          {
+          AntdScssThemePlugin.themify({
             loader: 'less-loader',
             options: lessLoaderOptions,
-          },
+          }),
         ],
       });
 
