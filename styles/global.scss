@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Muli:wght@400;500;600;700&display=swap');
+@import 'antdThemeVariables';
+
+:root {
+  /*
+      * Typography
+      * ======================================================================== */
+  --font-family-base: #{$font-family};
+  --heading-color: #{$heading-color};
+  --text-color: #{$text-color};
+  --text-color-secondary: #{$text-color-secondary};
+  --font-size-base: #{$font-size-base};
+  --success-color: #{$success-color};
+  --warning-color: #{$warning-color};
+  --error-color: #{$error-color};
+  --base-font-weight: 500;
+
+  /*
+      * Layout
+      * ======================================================================== */
+  --layout-body-background: #{$layout-body-background};
+  --layout-header-height: #{$layout-header-height};
+  --layout-sider-background: #{$layout-sider-background};
+  --nav-header-height: 64px;
+  --max-content-width: 1000px;
+  --container-padding: 40px;
+  --menu-collapsed-width: #{$menu-collapsed-width};
+  --body-background: #{$body-background};
+  --border-width-base: #{$border-width-base};
+  --border-style-base: #{$border-style-base};
+  --border-color-base: #{$border-color-base};
+  --border-color-split: #{$border-color-split};
+  --border-radius-base: #{$border-radius-base};
+  --header-hover-bg: rgba(0, 0, 0, 0.025);
+  --shadow-1-down: #{$shadow-1-down};
+
+  /*
+      * Media queries breakpoints
+      * ======================================================================== */
+  --screen-xs-min: #{$screen-xs}; /* 480px Extra small screen / phone */
+  --screen-sm-min: #{$screen-sm}; /* 576px Small screen / tablet */
+  --screen-md-min: #{$screen-md}; /* 768px Medium screen / desktop */
+  --screen-lg-min: #{$screen-lg}; /* 992px Large screen / wide desktop */
+  --screen-xl-min: #{$screen-xl}; /* 1200px Extra large screen / full hd */
+  --screen-xxl-min: #{$screen-xxl}; /* 1600px Extra extra large screen / large descktop */
+
+  /*
+      * Colors
+      * ======================================================================== */
+  --primary-color: #{$primary-color};
+  --atb-blue: #{$atb-blue};
+  --dark-medium-blue: #0c344b;
+  --light-white: #eff3f5;
+  --dark-white: #ccd9df;
+  --light-blue: #{$atb-blue};
+  --light-medium-blue: #3d5866;
+  --hover-bg: rgba(0, 0, 0, 0.025);
+  --component-background: #fff;
+}
